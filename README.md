@@ -1,3 +1,17 @@
+# Format converstion
+Convert .gr format to METIS format using the following code:
+
+https://github.com/gladcolor/Graphs/blob/master/CS786_to_Metis.ipynb
+
+METIS format [discription](https://people.sc.fsu.edu/~jburkardt/data/metis_graph/metis_graph.html):
+
+ASCII
+a graph of N nodes is stored in a file of N+1 lines;
+the first line lists the number of nodes and the number of edges;
+If the first line contains more than two values, the extra values indicate the weights;
+each subsequent line lists the "neighbors" of a node;
+comment lines begin with a "%" sign;
+
 # TriangleCounting
 OpenMP-based parallel program for counting the number of triangles in a sparse graph.
 
